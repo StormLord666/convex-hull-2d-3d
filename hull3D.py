@@ -44,9 +44,7 @@ class ConvexHull3D():
         # randomize the order of the points
         self.pts = array(sample(list(self.pts), len(self.pts)))
 
-        """
-        Declare the variables TODO: Specify variables
-        """
+        # Find the largest and smallest points and keep them in variables
         self.boxmax, self.boxmin = pts.max(), pts.min()
 
         """
